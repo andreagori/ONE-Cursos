@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 
 <html lang="es">
-    <head> 
-        <meta charset="UTF-8">
-        <title>Productos Alura</title>
-        <link rel="stylesheet" href="productos.css">
-    </head>
 
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <title>Productos Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="productos.css">
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
             <h1> <img src="img/logo.png"> </h1>
             <nav>
                 <ul>
@@ -17,9 +20,38 @@
                     <li> <a href="contactos.html">Contacto</a> </li>
                 </ul>
             </nav>
-        </header>
+        </div>
+    </header>
 
-    </body>
+    <main>
+        <ul class="productos">
+            <li>
+                <h2> Cabello </h2>
+                <img src="img/cabello.jpg">
+                <p class="descripcion"> Con tijera o maquina, a gusto del cliente</p>
+                <p class="precios"> Precio: $10</p>
+            </li>
+            <li>
+                <h2> Barba </h2>
+                <img src="img/barba.jpg">
+                <p class="descripcion"> Corte y diseño profesional de barba</p>
+                <p class="precios"> Precio: $8</p>
+            </li>
+            <li>
+                <h2> Cabello + Barba </h2>
+                <img src="img/cabello+barba.jpg">
+                <p class="descripcion"> Paquete completo de cabello y barba</p>
+                <p class="precios"> Precio: $15</p>
+            </li>
+        </ul>
+
+    </main>
+
+    <footer>
+        <img src="img/logo-blanco.png">
+        <p class="piepagina"> &copy;Copyright Barberia Alura 2020</p>
+    </footer>
+</body>
 
 
 
