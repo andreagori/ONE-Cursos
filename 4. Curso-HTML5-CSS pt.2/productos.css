@@ -1,0 +1,113 @@
+header {
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+.encabezado {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f1b203;
+    text-decoration: underline;
+
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+
+    border-radius: 15px;
+}
+
+.productos li:hover {
+    border-color: #f1b203;
+}
+
+.productos li:active {
+    border-color: rgb(1, 211, 53);
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.descripcion {
+    font-size: 18px;
+}
+
+.precios {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.piepagina {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*
+glosario de css.
+display: inline; -> hace que los elementos se muestren en la misma linea.
+margin: 0 0 0 15px; -> margenes de 0 arriba, 0 derecha, 0 abajo, 15 izquierda.
+padding: 20px 0; -> padding de 20 arriba y abajo, 0 derecha e izquierda.
+position: relative; -> posicion relativa al elemento padre.
+position: absolute; -> posicion absoluta al elemento padre.
+margin: sirve para dar margenes a los elementos.
+inline-block; -> hace que los elementos se muestren en la misma linea pero con la posibilidad de darles un ancho y alto.
+revisar la relacion entre padding, width y margin. 
+box-sizing: border-box; -> hace que el padding y el border no afecten el ancho del elemento.
+border-color: black; -> color del borde.
+border-radius: 15px; -> redondea las esquinas del elemento.
+hover: es un pseudo selector que se activa cuando el mouse esta sobre el elemento.
+active: es un pseudo selector que se activa cuando el mouse esta presionando el elemento.
+*/
