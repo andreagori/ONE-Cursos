@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!-- Indica que estamos usando una version 5 de HTML -->
+
+<html lang="es"> <!-- En el html se define el idioma especifico de la pagina, se le agrega algo mas despues del html-->
+<!-- Se define con meta el diccionario de la pagina, ingles, español, etc. UTF -8 SE REFIERE A LATIN, ITALIANO SPAIN ETC.-->
+
+<head> <!-- En el head esta la informacion data, metadatos de la pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Barbería Alura</title>
+    <link rel="stylesheet" href="reset.css"> <!-- etiqueta de referencia al documento de reset-->
+    <link rel="stylesheet" href="style.css"> <!-- etiqueta de referencia al documento de style-->
+</head>
+
+<body> <!-- En el body se encuentra el contenido de la pagina-->
+    <header>
+        <div class="encabezado">
+            <h1> <img src="img/logo.png"> </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="productos.html"> Productos </a> </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <img class="banner" src="img/banner.jpg">
+    <main>
+        <section class="principal">
+            <h2 class="enCentro"> Sobre la Barbería Alura </h2>
+            <img src="img/utensilios[1].jpg" class="utensilios" alt="Utensilios de barberia">
+            <!-- alt es para describir la imagen-->
+            <p> Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay
+                de mejor para su cabello y barba. </p>
+
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                        clientes".
+                    </strong></em>
+            </p>
+
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el
+                mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un
+                padrón de
+                excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
+            </p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="enCentro"> Nuestra Ubicacion </h3>
+            <p> Nuestro establecimiento esta ubicado en el corazon de la ciudad </p>
+            <div class="linkmapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2875447263732!2d-46.63502577135677!3d-23.58932655982521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1ses-419!2smx!4v1710018749014!5m2!1ses-419!2smx"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+        <section class="Diferenciales">
+            <h3 class="enCentro">Diferenciales</h3>
+            <div class="contenidodif">
+                <ul class="listasdif">
+                    <li class="items">Atendimiento personalizado</li>
+                    <li class="items">Espacio diferenciado</li>
+                    <li class="items">profesionales calificados</li>
+                    <li class="items">Excelente localización</li>
+                    <li class="items">Puntualidad</li>
+                    <li class="items">Limpieza</li>
+                </ul><img src="img/diferenciales.jpg" class="imgdif">
+            </div>
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/HUE0x9fUGdk?si=hb1Kk0J_Kwkj5Etl"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <img src="img/logo-blanco.png">
+        <p class="piepagina"> &copy;Copyright Barberia Alura 2020</p>
+    </footer>
+</body>
+
+</html>
+<!-- glosario de etiquetas, <strong> es para hacer el texto en negritas
+    <em> es para hacer el texto cuerveado
+    <html lang= "es"> lang significa language y es es de español.
+    <title> es el titulo de la pagina.
+    style (para definir una propiedad de css sin tener el archivo creado aun)
+    id = "" esto es para identificar un elemento en especifico, se usa para css y js. en css se usa # para identificar el id.
+    <img> es para agregar una imagen
+    <ul> es para hacer una lista no ordenada.
+    <li> es para hacer un item de la lista.
+    class = "" esto es para identificar un grupo de elementos en especifico, se usa para css y js. en css se usa . para identificar el id.
+    se usa el # para identificar el id y el . para identificar la clase.
+    Una clase me permite reutilizar ese estilo, mientras que un id es un estilo unico.
+     -->
